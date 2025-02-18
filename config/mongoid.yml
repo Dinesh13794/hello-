@@ -1,0 +1,9 @@
+development:
+  clients:
+    default:
+      # uri: <%= ENV['MONGODB_URI'] %>
+      database: task_management_development
+      hosts:
+        - localhost:27017
+      options:
+        server_selection_timeout: 5
